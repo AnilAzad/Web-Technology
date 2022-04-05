@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InputForm</title>
+</head>
+
+<body>
+    <h2 align="center">Input Form</h2><hr>
+    <table align="center">
+        <form>
+            <tr>
+                <td>
+                    <label for="name">Name :</label>
+                </td>
+                <td><input type="text" id="name" placeholder="Enter Your Name" required/></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fn">Father's Name :</label>
+                </td>
+                <td>
+                    <input type="text" id="fn" placeholder="Enter Your Father's Name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">E-mail :</label>
+                </td>
+                <td>
+                    <input type="email" id="mail" placeholder="Enter Your E-mail" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pn">Phone No :</label>
+                </td>
+                <td>
+                    <input type="number" id="pn" placeholder="Enter Your Phone No." />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Select Your Gender :</label>
+                </td>
+                <td>
+                    <input type="radio" id="gender" name="gender" value="Male" />Male
+                    <input type="radio" id="gender" name="gender" value="Female" />Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birth">Date Of Birth :</label>
+                </td>
+                <td><input type="date" id="birth" name="birth" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="picture">Upload Pic :</label>
+                </td>
+                <td><input type="file" id="myFile" name="filename" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Q">Educational Qualification :</label>
+                </td>
+                <td>
+                    <input type="text" id="Q" name="Q" placeholder="Qualifications" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="y">Write About Yourself :</label><br /></td>
+                <td>
+                    <textarea name="myText" id="y" cols="21" rows="5" placeholder="Write Here"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="N">Nationality :</label><br /></td>
+                <td>
+                    <select name="N" id="N">
+                        <option value="Indian">Indian</option>
+                        <option value="nepal">Nepali</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sR"></label>
+                </td>
+                <td>
+                    <input type="submit" value="Submit Now" />
+                    <input type="reset" value="Reset Now" />
+                </td>
+            </tr>
+        </form>
+    </table><hr>
+</body>
+
+</html>

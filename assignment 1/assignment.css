@@ -1,0 +1,106 @@
+
+        .container{
+            background: url(logo.jpg);
+            color: white;
+            background-size: 100%;
+            
+        }
+        .image {
+             background-image: url("download1234.jpg");
+             height: 127px;;
+             width: 396px;
+        }
+        th,a,ul,pre{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            color: black;
+        }
+        h1{
+            color: red;
+            font-weight: bold;
+            font-style: italic;
+            font-family: 'Pangolin';
+            font-size: 40px; /* 1/96th of an inch*/
+            line-height: 1.4em;
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link {
+        color: rgb(15, 94, 222);
+        }
+
+        a:visited {
+        color: rgb(74, 32, 228);
+        }
+        a:hover {
+        color: rgb(251, 255, 0);
+        }
+        a:active {
+        color: rgb(176, 207, 36);
+        }
+        span{
+            font-family: 'Times New Roman', Times, serif;
+            color:rgb(0, 247, 255);
+            font-weight: bolder;
+
+        }  
+        table{
+            /* background-color: rgb(230, 203, 116); */
+            color: antiquewhite;
+        } 
+        th{
+            color: rgb(43, 107, 226);
+            font-weight: bold;
+            font-style: italic;
+            font-family: 'Pangolin';
+            font-size: 18px; /* 1/96th of an inch*/
+            line-height: 1.4em;
+            background-color: rgb(15, 15, 15);
+        }
+        footer{
+            /* background-color: black; */
+            color: aqua;
+            padding: 15px;
+            text-align: center;
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+        background: #3B5998;
+        color: white;
+        }
+        .fa-instagram {
+        background: #125688;
+        color: white;
+        }
+        input[type=text] {
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+          }
+          
+          input[type=text]:focus {
+            width: 100%;
+          }
